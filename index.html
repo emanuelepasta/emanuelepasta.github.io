@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Emanuele Pasta</title>
+<meta name="description" content="Emanuele Pasta. Business developer from Turin, working with startups.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1b1a17;
+    --body: #3a3833;
+    --soft: #8a867c;
+    --line: #e7e2d8;
+    --paper: #faf8f3;
+    --accent: #9a3b22;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--body);
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 18.5px;
+    line-height: 1.72;
+    font-feature-settings: "kern", "liga", "onum";
+  }
+  ::selection { background: #f1dcc9; }
+  main { max-width: 860px; margin: 0 auto; padding: 120px 32px 80px; }
+
+  header { display: grid; grid-template-columns: 180px 1fr; gap: 0 48px; margin-bottom: 24px; }
+  .mark {
+    font-family: "Newsreader", "Source Serif 4", Georgia, serif;
+    font-size: 15px; letter-spacing: .14em; text-transform: uppercase; color: var(--soft);
+    padding-top: 22px;
+  }
+  .portrait { display: block; width: 132px; height: 132px; object-fit: cover; border-radius: 50%; margin: 0 0 18px; filter: saturate(.92); }
+  figure { margin: 30px 0 30px; }
+  figure img { display: block; width: 100%; height: auto; border-radius: 3px; }
+  figcaption { font-size: 14px; font-style: italic; color: var(--soft); margin-top: 8px; }
+  .mark span { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); margin-right: 10px; vertical-align: 2px; }
+  h1 {
+    font-family: "Newsreader", "Source Serif 4", Georgia, serif;
+    color: var(--ink); font-size: 56px; line-height: 1.05; font-weight: 400;
+    letter-spacing: -0.02em; margin: 0 0 22px;
+  }
+  .intro {
+    font-family: "Newsreader", "Source Serif 4", Georgia, serif;
+    color: var(--ink); font-size: 23px; line-height: 1.5; margin: 0 0 22px; font-style: italic; font-weight: 300;
+  }
+  .contact { font-size: 15px; color: var(--soft); margin: 0; }
+  .contact a { margin-right: 18px; }
+
+  section {
+    display: grid; grid-template-columns: 180px 1fr; gap: 0 48px;
+    padding-top: 44px; margin-top: 44px; border-top: 1px solid var(--line);
+  }
+  .rail { position: relative; }
+  .rail .num {
+    font-family: "Newsreader", Georgia, serif; font-size: 13px; color: var(--accent);
+    letter-spacing: .08em; display: block; margin-bottom: 6px;
+  }
+  .when {
+    font-size: 14px; color: var(--soft); line-height: 1.45; margin: 0;
+    position: sticky; top: 32px;
+  }
+  h2 {
+    font-family: "Newsreader", "Source Serif 4", Georgia, serif;
+    color: var(--ink); font-size: 27px; font-weight: 400; line-height: 1.2;
+    letter-spacing: -0.01em; margin: 0 0 18px;
+  }
+  p { margin: 0 0 17px; }
+  .text p:last-child { margin-bottom: 0; }
+  main > section:first-of-type .text > p:first-of-type::first-letter {
+    font-family: "Newsreader", Georgia, serif;
+    float: left; font-size: 3.1em; line-height: .9; padding: 6px 8px 0 0; color: var(--accent);
+  }
+
+  a { color: var(--ink); text-decoration: underline; text-decoration-color: #cfc8b9; text-underline-offset: 4px; text-decoration-thickness: 1px; transition: text-decoration-color .15s; }
+  a:hover { text-decoration-color: var(--accent); }
+
+  footer {
+    display: grid; grid-template-columns: 180px 1fr; gap: 0 48px;
+    margin-top: 72px; padding-top: 22px; border-top: 1px solid var(--ink);
+    font-size: 15px; color: var(--soft);
+  }
+  footer p { margin: 0 0 4px; }
+
+  @media (max-width: 760px) {
+    .portrait { width: 96px; height: 96px; }
+    body { font-size: 17.5px; }
+    main { padding: 64px 22px 56px; }
+    header, section, footer { grid-template-columns: 1fr; }
+    .mark { padding-top: 0; margin-bottom: 18px; }
+    h1 { font-size: 40px; }
+    .intro { font-size: 20px; }
+    .when { position: static; margin-bottom: 8px; }
+    .rail .num { display: inline; margin-right: 10px; }
+    .rail { display: flex; align-items: baseline; }
+    h2 { font-size: 24px; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <div class="mark"><img class="portrait" src="portrait.jpg" alt="Emanuele Pasta" width="320" height="320"><div><span></span>Turin, Italy</div></div>
+  <div>
+    <h1>Emanuele Pasta</h1>
+    <p class="intro">I work with startups. First I spent time evaluating them, then I helped build them. This is the longer version of how I got here.</p>
+    <p class="contact"><a href="mailto:emanuele.pasta@outlook.it">Email</a><a href="https://www.linkedin.com/in/emanuele-pasta/">LinkedIn</a></p>
+  </div>
+</header>
+
+<section>
+  <div class="rail"><span class="num">01</span><p class="when">Early on</p></div>
+  <div class="text">
+    <h2>A newspaper and one stock</h2>
+  <p>When I was eleven or twelve, my grandmother bought La Stampa every day. I would go straight to the stock listings and look for Enel. I'm not sure why Enel. Probably the TV ads. I just wanted to know where it had closed. Looking back, it would have been a decent investment.</p>
+  <p>I went to a classical high school and swam competitively at the same time.</p>
+  </div>
+</section>
+
+<section>
+  <div class="rail"><span class="num">02</span><p class="when">Turin, 2017 to 2020</p></div>
+  <div class="text">
+    <h2>Economics</h2>
+  <p>I chose economics because I was curious about how the economy actually works, and because it covered a lot of ground. I enjoyed it a lot. The finance exams were the ones I liked most, so in my third year I specialized in financial intermediaries and insurance, and did an internship at a bank.</p>
+  </div>
+</section>
+
+<section>
+  <div class="rail"><span class="num">03</span><p class="when">Milan, 2020 to 2023</p></div>
+  <div class="text">
+    <h2>Moving to Milan</h2>
+  <p>For my master's I moved to Università Cattolica in Milan. I wanted to leave my comfort zone, change city and university, meet new people, and be closer to where Italian finance happens.</p>
+  <p>Two experiences shaped those years. The first was an internship at LIFTT, where I saw startup investing from the inside for the first time. Among other things I worked on a market study of the nuclear sector for Newcleo, which has since <a href="https://dealroom.co/news/155225-nuclear-startup-newcleo-lists-on-nasdaq-with-250m-spac-deal/">listed on the Nasdaq</a>.</p>
+    <figure><img src="newcleo.jpg" alt="Emanuele with Stefano Buono and the team at OGR in Turin" loading="lazy"><figcaption>With Stefano Buono, founder of newcleo, at OGR in Turin.</figcaption></figure>
+  <p>The second was JECatt, the junior enterprise of Cattolica. It is a non-profit run entirely by students who take the work seriously. We did consulting for startups, small companies and sometimes large ones, and billed around €100K. I spent two years in the audit team and became its vice head. What I remember most is being surrounded by very sharp people.</p>
+  <p>By the end I knew what my thesis would be about: how venture funds evaluate startups, both qualitatively and with numbers. I interviewed investors at LIFTT, Primo Ventures and P101 about the methods they really use.</p>
+  </div>
+</section>
+
+<section>
+  <div class="rail"><span class="num">04</span><p class="when">2023 to today</p></div>
+  <div class="text">
+    <h2>Both sides of the table</h2>
+  <p>My first job was at LINKS Foundation, an applied research center in Turin. I worked on technology transfer, meaning how research results can leave the lab and reach the market, and I scouted more than fifty startups with Politecnico di Torino and Intesa Sanpaolo Innovation Center.</p>
+  <p>At LINKS I met a colleague who was also one of the founders of Sunspeker. That is how I joined Sunspeker, as its first full-time employee. I helped raise a €690K round, most of it through an <a href="https://www.startupbusiness.it/en/sunspeker-raises-e650000-for-its-designer-photovoltaic-panels/146573/">equity crowdfunding campaign</a> that also brought in institutional investors, we went through the Silicon Allee accelerator in Berlin, and later I became a co-founder.</p>
+  <p>In 2024 I was also a fellow at Pulsar VC. For a few months I was on both sides at once, running due diligence on startups while preparing the fundraising round for one. Along the way I took courses with GoingVC to keep learning the investor side.</p>
+  <p>In 2025 I became the first full-time employee at MESPAC, a deeptech company working with satellite and AI data for offshore and maritime sectors. I lead go-to-market for maritime, I managed an €860K <a href="https://business.esa.int/projects/mespacdemo">demonstration project</a> with the European Space Agency, and the company sent me to a six-month accelerator in New York.</p>
+    <figure><img src="stage.jpg" alt="Emanuele presenting MESPAC on stage at South Summit" loading="lazy"><figcaption>Presenting MESPAC at South Summit.</figcaption></figure>
+  <p>I like building my own tools. At MESPAC I set up an LLM-based workflow that turns customer call transcripts into structured insights for the product team. At Sunspeker I built the sales stack from scratch.</p>
+  </div>
+</section>
+
+<section>
+  <div class="rail"><span class="num">05</span><p class="when">Outside work</p></div>
+  <div class="text">
+    <h2>The rest</h2>
+  <p>Nobody in my family is an entrepreneur. My parents do something completely different, so this interest is one I found on my own.</p>
+  <p>I love Italian cooking, and one day I would like to open my own pizzeria.</p>
+  <p>I swam competitively for more than fifteen years and was ranked in the top seven nationally in my category.</p>
+  </div>
+</section>
+
+<footer>
+  <div>Emanuele Pasta</div>
+  <div>
+    <p><a href="mailto:emanuele.pasta@outlook.it">emanuele.pasta@outlook.it</a> · <a href="https://www.linkedin.com/in/emanuele-pasta/">LinkedIn</a></p>
+    <p>MSc Banking &amp; Finance, Università Cattolica · BSc Business Administration, University of Turin</p>
+  </div>
+</footer>
+
+</main>
+</body>
+</html>
